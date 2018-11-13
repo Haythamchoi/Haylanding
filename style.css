@@ -1,0 +1,54 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  height: calc(100vh - 110px);
+  margin-top: 20px;
+}
+
+.navbar-minimal {
+  display: flex;
+  background: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dashboard.main {
+  grid-row : 1 / span  2;
+  grid-column: 1 / span 1;
+}
+
+.dashboard.omae {
+  grid-row : 1 / span  2;
+  grid-column: 1 / span 1;
+}
+
+.dashboard.kisama{
+  grid-row: 1/ span 1;
+  grid-column: 2/ span 3;
+}
+
+.dashboard h4 {
+  color: green;
+  font-family: "Kodchasan", sans-serif;
+}
+
+.dashboard h3 {
+  color: red;
+  font-family: "Kodchasan", sans-serif;
+}
+
+.dashboard-card {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dashboard img {
+  border-radius: 40px;
+}
