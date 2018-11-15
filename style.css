@@ -79,10 +79,12 @@
 
 #footer {
   height: 70px;
+  background-color: #FFFAFA
 }
 
 #footer p{
   font-size: 10px;
+  color: gray;
 }
 
 #footer a{
@@ -91,4 +93,5 @@
 
 #footer a:hover {
   color: red;
+  background-color: #FFFAFA
 }
