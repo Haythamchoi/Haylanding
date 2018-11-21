@@ -1,5 +1,6 @@
 .container {
   padding: 50px;
+
 }
 
 .dashboard {
@@ -8,6 +9,7 @@
   grid-template-rows: 50% 50%;
   height: calc(100vh - 110px);
   margin-top: 20px;
+
 }
 
 .navbar-minimal {
@@ -46,6 +48,10 @@
   grid-column: 2/ span 3;
 }
 
+.dashboard-card-content a {
+  color: red;
+}
+
 @media (max-width: 992px) {
   .dashboard {
     display: block;
@@ -79,7 +85,6 @@
 
 #footer {
   height: 70px;
-  background-color: #FFFAFA
 }
 
 #footer p{
@@ -93,5 +98,4 @@
 
 #footer a:hover {
   color: red;
-  background-color: #FFFAFA
 }
