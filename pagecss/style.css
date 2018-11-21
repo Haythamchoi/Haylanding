@@ -5,7 +5,7 @@
 }
 
 .container {
-  background-image: url(./images/socool.jpg);
+  background-image: url(file:///Users/Haytham/Desktop/Haytham/JavaScript%20Project/landing/images/socool.jpg);
   background-size: cover;
   opacity: 0.5;
   border-radius: 40px;
