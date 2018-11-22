@@ -49,8 +49,13 @@
 }
 
 .dashboard-card-content a {
+  color: #C0C0C0
+}
+
+.dashboard-card-content a:hover{
   color: red;
 }
+
 
 @media (max-width: 992px) {
   .dashboard {

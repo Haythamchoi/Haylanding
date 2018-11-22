@@ -5,8 +5,6 @@
 }
 
 .container {
-
-  background-size: cover;
   opacity: 0.5;
   border-radius: 40px;
 }
@@ -53,7 +51,7 @@
   text-decoration: none;
 }
 
-/* Dropdown menu */
+/* Dropdown menu and not working */
 .navbar-haytham-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
