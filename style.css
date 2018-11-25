@@ -1,3 +1,4 @@
+
 .container {
   padding: 50px;
 
@@ -21,15 +22,15 @@
 }
 
 .dashboard-card.main{
-  box-shadow: 2px 2px 5px red;
+  box-shadow: 2px 2px 4px red;
   border-radius: 10px;
 }
 .dashboard-card.omae{
-  box-shadow: 2px 2px 5px red;
+  box-shadow: 2px 2px 4px red;
   border-radius: 10px;
 }
 .dashboard-card.kisama{
-  box-shadow: 2px 2px 5px red;
+  box-shadow: 2px 2px 4px red;
   border-radius: 10px;
 }
 
@@ -63,13 +64,9 @@
   }
 }
 
-.dashboard h4 {
-  color: green;
-  font-family: "Kodchasan", sans-serif;
-}
 
 .dashboard h3 {
-  color: red;
+  color: gray;
   font-family: "Kodchasan", sans-serif;
 }
 
@@ -84,8 +81,16 @@
   justify-content: space-around;
 }
 
-.dashboard img {
+.dashboard-card-content img {
   border-radius: 40px;
+}
+
+.fab.fa-instagram{
+  font-size: 50px;
+}
+
+.fab.fa-github{
+  font-size: 50px;
 }
 
 #footer {
