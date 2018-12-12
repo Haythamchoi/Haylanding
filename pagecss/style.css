@@ -27,16 +27,19 @@
 .dashboard-card.main {
   background-image: url(../images/biketrip.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .dashboard-card.omae {
   background-image: url(../images/socool.jpg);
   background-size: cover;
+
 }
 
 .dashboard-card.cat {
   background-image: url(../images/Baseball.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .navbar-haytham {
